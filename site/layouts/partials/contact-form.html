@@ -1,33 +1,44 @@
 <!-- Contact -->
-<div class="mb4">
-  <h4 class="f3 b lh-title mb3 tc">Drop us a line below</h4>
+<div class="col-md-12">
+  <h1 class="py-4 text-center"> Kontakt </h1>
+  <div class="offset-md-2 col-md-8">
+  <h3>Get in Touch</h3>
+  <hr class="bg-dark">
+    <div class="offset-md-1 col-md-10 py-2">
+      <form action="">
+             <!-- Name -->
+        <div class="row py-2">
+            <div class="col-md-3">
+              <label for="name">Name</label>
+            </div>
+            <div class="col-md-9">
+              <input type="text" id="name" placeholder="Name" class="w-100">
+            </div>
+        </div>
+            <!-- Email -->
+        <div class="row py-2">
+            <div class="col-md-3">
+              <label for="email">Email</label>
+            </div>
+            <div class="col-md-9">
+              <input type="email" id="email" placeholder="Email" class="w-100 mb2">
+            </div>
+        </div>    
 
-  <form action="">
-    <div class="flex-l mhn1-l">
-          <!-- Name -->
-      <div class="ph1-l w-50-l">
-        <fieldset>
-          <input type="text" id="name" placeholder="Name" class="w-100 mb2">
-          <label for="name">Name</label>
-        </fieldset>
-      </div>
-          <!-- Email -->
-      <div class="ph1-l w-50-l">
-        <fieldset>
-          <input type="email" id="email" placeholder="Email" class="w-100 mb2">
-          <label for="email">Email</label>
-        </fieldset>
-      </div>
+            <!-- Message -->
+        <div class="row py-2">
+          <div class="col-md-3">
+            <label for="message">Message</label>
+          </div>
+          <div class="col-md-9">
+            <textarea name="name" placeholder="Your message" rows="8" cols="80" id="message" class="w-100"></textarea>
+          </div>
+        </div>
+            <!-- Button -->
+        <div class="row py-2">
+          <button type="submit" class="btn w-25 mx-auto">Send</button>
+        </div>
+      </form>
     </div>
-
-        <!-- Message -->
-    <fieldset>
-      <textarea name="name" placeholder="Your message" rows="8" cols="80" id="message" class="w-100"></textarea>
-      <label for="message">Your message</label>
-    </fieldset>
-        <!-- Button -->
-    <div class="tc">
-      <button type="submit" class="btn w-100 w-auto-ns raise">Submit</button>
-    </div>
-  </form>
+  </div>
 </div>

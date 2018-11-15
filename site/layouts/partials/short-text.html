@@ -1,6 +1,12 @@
-<div class="bg-grey-1 pv4">
-  <div class="flex-l mhn1-l ph3 center mw7">
-    <h2 class="f2 b lh-title mb2 w-40-l">{{.heading}}</h2>
-    <p class="w-60-l mb0">{{.text}}</p>
-  </div>
+<div class="container">
+	<div class="py-5">
+		<h1>{{.heading}}</h1>
+		<p class="mw-100">{{.text}}</p>
+		<div class="offset-md-3 col-md-6 col-12">
+			<form class="form-inline w-100" action="">
+			    <input class="form-control w-75 border border-secondary rounded-left" type="text" placeholder="Search" style="border-radius: 0;">
+			    <button class="btn btn-light btn-outline-secondary w-25 rounded-right" type="submit" style="border-radius: 0; border-left: 0;">Search</button>
+			</form>
+		</div>
+	</div>
 </div>
